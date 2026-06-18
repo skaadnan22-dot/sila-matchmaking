@@ -108,7 +108,7 @@ function scoreMatch(myAnswers, otherAnswers, portal) {
 function pickContact(profile, answers, portal) {
   if (profile && profile.contact) return profile.contact;
   if (portal === "friends" && answers && answers.f10) return answers.f10;
-  if (answers && answers.q6) return answers.q6;
+  if (answers && answers.q_contact) return answers.q_contact;
   return null;
 }
 
