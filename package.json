@@ -1,0 +1,13 @@
+{
+  "name": "sila-matchmaking",
+  "version": "1.0.0",
+  "description": "Scheduled matchmaking ritual for Sila",
+  "main": "matchmaking.js",
+  "scripts": {
+    "start": "node matchmaking.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  },
+  "private": true
+}
